@@ -68,3 +68,20 @@ nav .nav-link:hover {
         display: none;
     }
 }
+.socials {
+    position: fixed;
+    top: 35%;
+    right: 0;
+    background-color: rgb(250, 100, 175);
+    width: 55px;
+    padding: 10px 5px;
+    border-radius: 20px 0 0 20px;
+}
+.socials img {
+    width: 100%;
+}
+@media (max-width: 600px) {
+    .socials {
+        display: none;
+    }
+}

@@ -67,6 +67,9 @@ nav .nav-link:hover {
     .menu-container .nav-links {
         display: none;
     }
+    .headshot {
+        width: 270px;
+    }
 }
 .socials {
     position: fixed;
@@ -84,6 +87,12 @@ nav .nav-link:hover {
     .socials {
         display: none;
     }
+    table #project {
+        min-width: 0;
+    }
+    table #title {
+        min-width: 0;
+    }
 }
 .main-section {
     display: flex;
@@ -92,6 +101,14 @@ nav .nav-link:hover {
 }
 section {
     color: rgb(216, 216, 216);
+}
+section a {
+    text-decoration: none;
+    color: rgb(216, 216, 216);
+}
+section h3 {
+    font-size: 30px;
+    margin: 0;
 }
 h1 {
     font-size: 70px;
@@ -123,7 +140,14 @@ p {
         text-align: center;
     }
     .headshot {
-        margin-left: none;
+        margin-left: 0;
+        max-width: 270px;
+    }
+    .about-headshot {
+        padding: 40px 0;
+    }
+    .headshot-about {
+        max-width: 270px;
     }
 }
 .arrow {
@@ -152,3 +176,121 @@ p {
         traansform: translateY(-15px);
     }
 }
+.work-section {
+    background-color: rgb(59, 62, 77);
+    padding: 80px 50px;
+}
+.work-card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.work-card {
+    width: 25%;
+    background-color: rgb(29, 31, 38);
+    margin: 10px;
+    padding: 0 50px 50px 50px;
+}
+@media screen and (max-width: 1000px) {
+    .work-card {
+        width: 100%;
+    }
+    .bounce {
+        padding: 50px 0 0 0;
+    }
+    .headshot-about {
+        padding: 40px 40px 0 40px;
+    }
+}
+.html {
+    border-top: solid 8px rgb(242, 128, 87);
+}
+.css {
+    border-top: solid 8px rgb(88, 130, 203);
+}
+.js {
+    border-top: solid 8px rgb(3, 114, 114);
+}
+.react {
+    border-top: solid 8px rgb(239, 255, 66);
+}
+.about-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+@media screen and (max-width: 1000px) {
+    .about-section {
+        display: flex;
+        flex-direction: column;
+    }
+    section .about-container {
+        padding: 100px 0;
+        width: 80%;
+      
+    }
+    section .quote-container {
+        padding: 100px 0;
+        width: 80%;
+        
+    }
+}
+.quote-container {
+    width: 40%;
+    padding: 40px;
+}
+.about-container {
+    width: 30%;
+    padding: 80px 0;
+}
+.quote {
+    font-size: 40px;
+    font-style: italic;
+}
+.quote-container p {
+    float: right;
+}
+footer {
+    background-color: rgb(3, 114, 144);
+    display: flex;
+    justify-content: flex-end;
+    padding: 50px;
+}
+footer a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.projects {
+    padding: 80px 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+table {
+    max-width: 800px;
+    margin-top: 50px;
+}
+table td {
+    padding: 15px;
+}
+table #project {
+    min-width: 110px;
+}
+table #title {
+    min-width: 200px;
+}
+.headshot-about {
+    width: 335px;
+    border-radius: 50%;
+    padding: 40px;
+
+}
+.about-headshot {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(59, 62, 77);
+    padding: 80px;
+  }

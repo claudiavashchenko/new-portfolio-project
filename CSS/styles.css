@@ -11,7 +11,7 @@ body {
 
 }
 nav {
-    background-color: rgb(55, 72, 95);
+    background-color: #1c1c1c;
 }
 nav .tech-container {
     padding: 35px 10px;
@@ -81,7 +81,7 @@ nav .nav-link:hover {
     position: fixed;
     top: 35%;
     right: 0;
-    background-color: rgb(250, 100, 175);
+    background-color: #1c1c1c;
     width: 55px;
     padding: 10px 5px;
     border-radius: 20px 0 0 20px;
@@ -130,6 +130,8 @@ nav .nav-link:hover {
     display: flex;
     height: 100vh;
     align-items: center;
+    background-color: #ecebe4;
+    color: #1c1c1c;
 }
 section {
     color: rgb(216, 216, 216);
@@ -211,7 +213,7 @@ p {
     }
 }
 .work-section {
-    background-color: rgb(59, 62, 77);
+    background-color: #fafaff;
     padding: 80px 50px;
 }
 .work-card-container {
@@ -221,7 +223,7 @@ p {
 }
 .work-card {
     width: 25%;
-    background-color: rgb(29, 31, 38);
+    background-color: #1c1c1c;
     margin: 10px;
     padding: 0 50px 50px 50px;
 }
@@ -253,6 +255,8 @@ p {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    background-color: #eef0f2;
+    color: #1c1c1c;
 }
 @media screen and (max-width: 1000px) {
     .about-section {
@@ -293,7 +297,7 @@ p {
     float: right;
 }
 footer {
-    background-color: rgb(3, 114, 144);
+    background-color: #1c1c1c;
     display: flex;
     justify-content: left;
     padding-top: 50px;
@@ -314,6 +318,11 @@ footer a {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: #fafaff;
+    color: #1c1c1c;
+}
+.projects a {
+    color: rgb(206, 141, 238);
 }
 table {
     max-width: 800px;
@@ -340,7 +349,8 @@ table #title {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: rgb(59, 62, 77);
+    background-color: #ecebe4;
+    color: #1c1c1c;
     padding: 80px;
   }
   .contact-section {
@@ -349,9 +359,14 @@ table #title {
     padding-bottom: 250px;
     padding-left: 10px;
     padding-right: 10px;
+    background-color: #ecebe4;
+    color: #1c1c1c;
   }
   .contact-section ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+  }
+  .contact-section a {
+    color: rgb(100, 100, 233);
   }

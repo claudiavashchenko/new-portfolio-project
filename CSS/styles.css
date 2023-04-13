@@ -6,6 +6,9 @@ body {
     padding: 0;
     background-color: rgb(41, 43, 53);
     font-family: Lato, Times, serif;
+    position: relative;
+    min-height: 100vh;
+
 }
 nav {
     background-color: rgb(55, 72, 95);
@@ -70,6 +73,9 @@ nav .nav-link:hover {
     .headshot {
         width: 270px;
     }
+    .hamburger-list-container {
+        display: block;
+    }
 }
 .socials {
     position: fixed;
@@ -93,6 +99,32 @@ nav .nav-link:hover {
     table #title {
         min-width: 0;
     }
+    .contact-section {
+        padding: 50px 10px;
+    }
+    nav .tech-container img {
+        height: 35px;
+    }
+    nav .tech-container {
+        padding: 50px 10px;
+    }
+    nav .logo {
+        height: 100px;
+        margin: 0 10px 0 0;
+    }
+    table {
+        max-width: 800px;
+    }
+    table td {
+        padding: 5 !important;
+    }
+    table #project {
+        min-width: 75px !important;
+    }
+    table #title {
+        min-width: 130px !important;
+    }
+
 }
 .main-section {
     display: flex;
@@ -133,6 +165,7 @@ p {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
+        height: auto;
     }
     .introduction {
         width: 90vw;
@@ -149,6 +182,7 @@ p {
     .headshot-about {
         max-width: 270px;
     }
+    
 }
 .arrow {
     border: solid rgb(255, 255, 255);
@@ -235,6 +269,13 @@ p {
         width: 80%;
         
     }
+    .contact-section {
+        padding-top: 250px;
+        padding-bottom: 250px;
+        padding-left: 10px;
+        padding-right: 10px;
+       
+    }
 }
 .quote-container {
     width: 40%;
@@ -254,12 +295,19 @@ p {
 footer {
     background-color: rgb(3, 114, 144);
     display: flex;
-    justify-content: flex-end;
-    padding: 50px;
+    justify-content: left;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
 footer a {
     text-decoration: none;
     color: rgb(255, 255, 255);
+    text-align: center;
 }
 .projects {
     padding: 80px 40px;
@@ -270,6 +318,7 @@ footer a {
 table {
     max-width: 800px;
     margin-top: 50px;
+    margin-bottom: 100px;
 }
 table td {
     padding: 15px;
@@ -293,4 +342,16 @@ table #title {
     align-items: center;
     background-color: rgb(59, 62, 77);
     padding: 80px;
+  }
+  .contact-section {
+    text-align: center;
+    padding-top: 250px;
+    padding-bottom: 250px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .contact-section ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
   }

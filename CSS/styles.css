@@ -94,6 +94,12 @@ nav .nav-link:hover {
     width: 100%;
 }
 @media (max-width: 600px) {
+    body {
+        overflow-x: hidden; 
+      }
+      .nav-container {
+        width: 100%;
+      }
     .socials {
         display: none;
     }
